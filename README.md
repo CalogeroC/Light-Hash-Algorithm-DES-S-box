@@ -1,11 +1,13 @@
-"# Light-Hash-Algorithm-DES-S-box" 
+# Light-Hash-Algorithm-DES-S-box
 
-Directories:
+## Directories:
 
-- Doc: contains the requirements of the project.
+### Doc
+1. **light_hash_algorithm-DES-S-box**: contains the requirements of the project.
 
-- Db: contains the files used to implement the requirements:
-      - Sbox: is the implementation of the required Sbox.
-      - Round: implementation of a single round of the light hash algorithm.
-      - HashIteration: implementation of the hash function that exploits Round.
-      - lightHashDES: this module performs a light hash function based on DES s-box.
+### Db
+This folder contains the files used to implement the requirements:
+      1. **Sbox**: is the implementation of the required Sbox.
+      2. **Round**: implementation of a single round of the light hash algorithm.
+      3. **HashIteration**: implementation of the hash function that exploits Round.
+      4. **lightHashDES**: this module performs a light hash function based on DES s-box.
