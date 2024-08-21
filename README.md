@@ -7,7 +7,7 @@
 
 ### Db
 This folder contains the files used to implement the requirements:
-      1. **Sbox**: is the implementation of the required Sbox.
-      2. **Round**: implementation of a single round of the light hash algorithm.
-      3. **HashIteration**: implementation of the hash function that exploits Round.
-      4. **lightHashDES**: this module performs a light hash function based on DES s-box.
+1. **Sbox**: is the implementation of the required Sbox.
+2. **Round**: implementation of a single round of the light hash algorithm.
+3. **HashIteration**: implementation of the hash function that exploits Round.
+4. **lightHashDES**: this module performs a light hash function based on DES s-box.
