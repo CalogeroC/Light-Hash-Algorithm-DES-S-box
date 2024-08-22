@@ -1,6 +1,7 @@
 # Light-Hash-Algorithm-DES-S-box
 
 ## Directories:
+
 ### Doc
 1. **light_hash_algorithm-DES-S-box**: contains the requirements of the project.
 
