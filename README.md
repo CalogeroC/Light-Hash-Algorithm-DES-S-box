@@ -17,3 +17,6 @@ This folder contains the model of the circuit for the implementation of the ligh
 
 ### Modelsim
 The folder contains all the files useful for simulating the project in modelsim. It is also provided with the scripts “build.py” and “clean.py” so as to help in building operations and removing files at the end of the simulation.
+
+### Tb
+The folder contains all the tests that were used to prove the correctness of the design by exploiting simulations with modelsim.
