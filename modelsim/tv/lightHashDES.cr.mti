@@ -1,0 +1,43 @@
+C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv {1 {vlog -work work -sv -stats=none C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testBenchString
+
+Top level modules:
+	testBenchString
+
+} {} {}} C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/HashIteration.sv {1 {vlog -work work -sv -stats=none C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/HashIteration.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HashIteration
+
+Top level modules:
+	HashIteration
+
+} {} {}} C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testLongString.sv {1 {vlog -work work -sv -stats=none C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testLongString.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testBenchLongString
+
+Top level modules:
+	testBenchLongString
+
+} {} {}} C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/lightHashDES.sv {1 {vlog -work work -sv -stats=none C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/lightHashDES.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module lightHashDES
+
+Top level modules:
+	lightHashDES
+
+} {} {}} C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/Round.sv {1 {vlog -work work -sv -stats=none C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/Round.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Round
+
+Top level modules:
+	Round
+
+} {} {}} C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/SBox.sv {1 {vlog -work work -sv -stats=none C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/SBox.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SBox
+
+Top level modules:
+	SBox
+
+} {} {}}
