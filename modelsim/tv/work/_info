@@ -1,0 +1,167 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/modelsim
+vHashIteration
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1689829512
+!i10b 1
+!s100 iDWDM0G_JbzMMX0NY>b_61
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=@09jW:g[I3M8WAk_TQa?1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/modelsim/tv
+Z5 w1689702644
+8C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/HashIteration.sv
+FC:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/HashIteration.sv
+!i122 0
+L0 2 53
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1689829512.000000
+!s107 C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/HashIteration.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/HashIteration.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+n@hash@iteration
+vlightHashDES
+R0
+R1
+!i10b 1
+!s100 c^JARi[2J;23QNCTYkCc;1
+R2
+Ib1b4WgTDWgT>=A2Ehfa=82
+R3
+S1
+R4
+R5
+8C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/lightHashDES.sv
+FC:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/lightHashDES.sv
+!i122 1
+L0 18 107
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/lightHashDES.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/lightHashDES.sv|
+!i113 1
+R8
+R9
+nlight@hash@d@e@s
+vRound
+R0
+R1
+!i10b 1
+!s100 S3K0lS9G:;BzZ3HCS]@8k1
+R2
+ILUW`eWgbDYgEIT<Ec1<bh0
+R3
+S1
+R4
+R5
+8C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/Round.sv
+FC:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/Round.sv
+!i122 2
+L0 2 38
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/Round.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/Round.sv|
+!i113 1
+R8
+R9
+n@round
+vSBox
+R0
+R1
+!i10b 1
+!s100 XV:hjBTn_[lR7N]fjAi650
+R2
+I[V]85ekM>ZGM`25Q2F[K53
+R3
+S1
+R4
+R5
+8C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/SBox.sv
+FC:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/SBox.sv
+!i122 3
+L0 2 118
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/SBox.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/db/SBox.sv|
+!i113 1
+R8
+R9
+n@s@box
+vtestBenchLongString
+R0
+Z10 !s110 1689829513
+!i10b 1
+!s100 _L?;;9zc=m1lEoLdAKnF=1
+R2
+IJDn@LZ>7XTgWe^G25g>?d2
+R3
+S1
+R4
+R5
+8C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testLongString.sv
+FC:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testLongString.sv
+!i122 5
+L0 2 56
+R6
+r1
+!s85 0
+31
+Z11 !s108 1689829513.000000
+!s107 C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testLongString.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testLongString.sv|
+!i113 1
+R8
+R9
+ntest@bench@long@string
+vtestBenchString
+R0
+R10
+!i10b 1
+!s100 >j7Kh5hOZcT>K_JULk^EB1
+R2
+I1ANE0ZS:kfI?>aOM7WQo^1
+R3
+S1
+R4
+R5
+8C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv
+FC:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv
+!i122 4
+L0 3 263
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv|
+!i113 1
+R8
+R9
+ntest@bench@string

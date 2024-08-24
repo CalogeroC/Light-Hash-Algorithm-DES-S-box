@@ -1,0 +1,245 @@
+vsim -gui work.testBenchString
+# vsim -gui work.testBenchString 
+# Start time: 08:02:53 on Jul 20,2023
+# Loading sv_std.std
+# Loading work.testBenchString
+# Loading work.lightHashDES
+# Loading work.HashIteration
+# Loading work.SBox
+# Loading work.Round
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/EMPTY_TEST File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 75
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/ONE_CHAR_TEST File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 104
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/SAME_STRING_SAME_HASH File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 135
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/SAME_STRING_SAME_HASH File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 143
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/SAME_STRING_SAME_HASH File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 160
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/DIFFERENT_STRING_DIFFERENT_HASH_TEST File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 207
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/DIFFERENT_STRING_DIFFERENT_HASH_TEST_2 File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 252
+add wave  \
+sim:/testBenchString/M_valid \
+sim:/testBenchString/input_lenght \
+sim:/testBenchString/hash_ready \
+sim:/testBenchString/M \
+sim:/testBenchString/digest
+# Load canceled
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/EMPTY_TEST File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 75
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/ONE_CHAR_TEST File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 104
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/SAME_STRING_SAME_HASH File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 135
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/SAME_STRING_SAME_HASH File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 143
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/SAME_STRING_SAME_HASH File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 160
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/DIFFERENT_STRING_DIFFERENT_HASH_TEST File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 207
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/DIFFERENT_STRING_DIFFERENT_HASH_TEST_2 File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 252
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/EMPTY_TEST File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 75
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/ONE_CHAR_TEST File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 104
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/SAME_STRING_SAME_HASH File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 135
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/SAME_STRING_SAME_HASH File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 143
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/SAME_STRING_SAME_HASH File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 160
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/DIFFERENT_STRING_DIFFERENT_HASH_TEST File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 207
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/DIFFERENT_STRING_DIFFERENT_HASH_TEST_2 File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 252
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "./tv/testbench.txt" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv(47)
+#    Time: 13 ps  Iteration: 1  Instance: /testBenchString
+# Sorry, the file containing the test_vectors could not be opened
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "./tv/test_results.txt" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv(52)
+#    Time: 13 ps  Iteration: 1  Instance: /testBenchString
+# Sorry, the file containing the ecpected digest could not be opened
+# 
+# ***EMPTY TEST START***
+# 
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 30 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 63
+# Digest result of empty test: 10110100110110010010110000111111
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 90 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 75
+# Digest of the empty string python: 
+# test result: Successful: the digest is the same as that obtained with python
+# test result: Successful
+# ***EMPTY TEST END***
+# 
+# ***ONE CHAR TEST (A) START***
+# 
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 110 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 91
+# Digest result of one char test (A): 01001011011101101101011000110000
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 190 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 104
+# Digest of one char test python: 
+# test result: Successful: the digest is the same as that obtained with python
+# test result: Successful
+# ***ONE CHAR TEST (A) END***
+# 
+# ***TEST SAME MESSAGE SAME HASH START***
+# 
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 230 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 120
+# Digest of the test_string: 01001011011101101101011000110000
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 710 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 135
+# Digest of the test_string python: 
+# test result: Successful: the digest is the same as that obtained with python
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 710 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 143
+# Digest of the test_string: 01001011011101101101011000110000
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 1610 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 160
+# Digest of the test_string python: 
+# test result: Successful: the digest is the same as that obtained with python
+# test result: Successful: same strings have the same digest
+# ***TEST SAME MESSAGE SAME HASH END***
+# 
+# ***DIFFERENT MESSAGE DIFFERENT HASH BEGIN***
+# 
+# Digest of the test_string_1: 01001011011101101101011000110000
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 2150 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 194
+# Digest of the test_string: 01001011011101101101011000110000
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 2630 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 207
+# Digest of the test_string python: 
+# test result: Successful: the digest is the same as that obtained with python
+# test result:                                        Failure
+# ***DIFFERENT MESSAGE DIFFERENT HASH END***
+# 
+# ***DIFFERENT MESSAGE DIFFERENT HASH BEGIN 2***
+# 
+# Digest of the test_string_1: 01001011011101101101011000110000
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 3170 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 239
+# Digest of the test_string: 10110100110110010010110000111111
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 3630 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 252
+# Digest of the test_string python: 
+# test result: Successful: the digest is the same as that obtained with python
+# test result: Successful: different strings different digest
+# ***DIFFERENT MESSAGE DIFFERENT HASH END***
+# 
+# ** Note: $stop    : C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv(263)
+#    Time: 3630 ps  Iteration: 1  Instance: /testBenchString
+# Break in Module testBenchString at C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv line 263
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/EMPTY_TEST File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 75
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/ONE_CHAR_TEST File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 104
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/SAME_STRING_SAME_HASH File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 135
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/SAME_STRING_SAME_HASH File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 143
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/SAME_STRING_SAME_HASH File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 160
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/DIFFERENT_STRING_DIFFERENT_HASH_TEST File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 207
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ps  Iteration: 0  Region: /testBenchString/#ublk#119755287#33/DIFFERENT_STRING_DIFFERENT_HASH_TEST_2 File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 252
+step -over
+run -continue
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "./tv/testbench.txt" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv(47)
+#    Time: 13 ps  Iteration: 1  Instance: /testBenchString
+# Sorry, the file containing the test_vectors could not be opened
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "./tv/test_results.txt" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv(52)
+#    Time: 13 ps  Iteration: 1  Instance: /testBenchString
+# Sorry, the file containing the ecpected digest could not be opened
+# 
+# ***EMPTY TEST START***
+# 
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 30 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 63
+# Digest result of empty test: 10110100110110010010110000111111
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 90 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 75
+# Digest of the empty string python: 
+# test result: Successful: the digest is the same as that obtained with python
+# test result: Successful
+# ***EMPTY TEST END***
+# 
+# ***ONE CHAR TEST (A) START***
+# 
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 110 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 91
+# Digest result of one char test (A): 01001011011101101101011000110000
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 190 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 104
+# Digest of one char test python: 
+# test result: Successful: the digest is the same as that obtained with python
+# test result: Successful
+# ***ONE CHAR TEST (A) END***
+# 
+# ***TEST SAME MESSAGE SAME HASH START***
+# 
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 230 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 120
+# Digest of the test_string: 01001011011101101101011000110000
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 710 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 135
+# Digest of the test_string python: 
+# test result: Successful: the digest is the same as that obtained with python
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 710 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 143
+# Digest of the test_string: 01001011011101101101011000110000
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 1610 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 160
+# Digest of the test_string python: 
+# test result: Successful: the digest is the same as that obtained with python
+# test result: Successful: same strings have the same digest
+# ***TEST SAME MESSAGE SAME HASH END***
+# 
+# ***DIFFERENT MESSAGE DIFFERENT HASH BEGIN***
+# 
+# Digest of the test_string_1: 01001011011101101101011000110000
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 2150 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 194
+# Digest of the test_string: 01001011011101101101011000110000
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 2630 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 207
+# Digest of the test_string python: 
+# test result: Successful: the digest is the same as that obtained with python
+# test result:                                        Failure
+# ***DIFFERENT MESSAGE DIFFERENT HASH END***
+# 
+# ***DIFFERENT MESSAGE DIFFERENT HASH BEGIN 2***
+# 
+# Digest of the test_string_1: 01001011011101101101011000110000
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 3170 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 239
+# Digest of the test_string: 10110100110110010010110000111111
+# ** Error (suppressible): (vsim-PLI-3084) $fgets : Argument 2 is not a valid file descriptor.
+#    Time: 3630 ps  Iteration: 1  Process: /testBenchString/#INITIAL#33(#ublk#119755287#33) File: C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv Line: 252
+# Digest of the test_string python: 
+# test result: Successful: the digest is the same as that obtained with python
+# test result: Successful: different strings different digest
+# ***DIFFERENT MESSAGE DIFFERENT HASH END***
+# 
+# ** Note: $stop    : C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv(263)
+#    Time: 3630 ps  Iteration: 1  Instance: /testBenchString
+# Break in Module testBenchString at C:/Users/Calo/Desktop/HES/Progetto/project_930II_22.23_light_hash_alg_des_sbox_Costa_LiDestri/tb/testBenchStrings.sv line 263
+# End time: 08:05:30 on Jul 20,2023, Elapsed time: 0:02:37
+# Errors: 12, Warnings: 10
