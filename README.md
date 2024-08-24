@@ -14,3 +14,6 @@ This folder contains the files used to implement the requirements:
 
 ### Model
 This folder contains the model of the circuit for the implementation of the light hash algorithm.
+
+### Modelsim
+The folder contains all the files useful for simulating the project in modelsim. It is also provided with the scripts “build.py” and “clean.py” so as to help in building operations and removing files at the end of the simulation.
