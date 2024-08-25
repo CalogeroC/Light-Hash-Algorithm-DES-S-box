@@ -20,3 +20,6 @@ The folder contains all the files useful for simulating the project in modelsim.
 
 ### Tb
 The folder contains all the tests that were used to prove the correctness of the design by exploiting simulations with modelsim.
+
+### Quartus
+This folder contains the design of the digital circuit made with Quartus.
