@@ -1,9 +1,12 @@
 # Light-Hash-Algorithm-DES-S-box
+This is a project from the Hardware Embedded Security course of the Master of Science in Cybersecurity degree program in Pisa. The assignment details are defined in the related pdf in the Doc folder.
+
 
 ## Directories:
 
 ### Doc
-1. **light_hash_algorithm-DES-S-box**: contains the requirements of the project.
+1. **light_hash_algorithm-DES-S-box.pdf**: this file contains the necessary details for the assignment.
+2. **project_report.pdf**: this file is the final report.
 
 ### Db
 This folder contains the files used to implement the requirements:
