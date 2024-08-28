@@ -1,5 +1,5 @@
 # Light-Hash-Algorithm-DES-S-box
-This is a project from the Hardware Embedded Security course of the Master of Science in Cybersecurity degree program in Pisa. The assignment details are defined in the related pdf in the Doc folder.
+This is a project of the Hardware Embedded Security course of the master's degree program in Cybersecurity in Pisa. The assignment details are defined in the related pdf in the Doc folder.
 
 
 ## Directories:
